@@ -92,7 +92,7 @@
             // pcbBottomImg
             // 
             pcbBottomImg.Image = (Image)resources.GetObject("pcbBottomImg.Image");
-            pcbBottomImg.Location = new Point(33, 359);
+            pcbBottomImg.Location = new Point(33, 365);
             pcbBottomImg.Name = "pcbBottomImg";
             pcbBottomImg.Size = new Size(642, 288);
             pcbBottomImg.SizeMode = PictureBoxSizeMode.StretchImage;
