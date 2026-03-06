@@ -1,6 +1,6 @@
 ﻿namespace SoundSharp
 {
-    partial class frmAdd
+    partial class frmAddEdit
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAdd));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAddEdit));
             btnCancel = new Button();
             btnOk = new Button();
             tbxBrand = new TextBox();
@@ -62,6 +62,7 @@
             btnCancel.TabIndex = 0;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // btnOk
             // 
@@ -71,6 +72,7 @@
             btnOk.TabIndex = 1;
             btnOk.Text = "Ok";
             btnOk.UseVisualStyleBackColor = true;
+            btnOk.Click += btnOk_Click;
             // 
             // tbxBrand
             // 
@@ -79,6 +81,7 @@
             tbxBrand.Name = "tbxBrand";
             tbxBrand.Size = new Size(199, 27);
             tbxBrand.TabIndex = 2;
+            tbxBrand.TextChanged += tbxBrand_TextChanged;
             // 
             // tbxModel
             // 
@@ -121,6 +124,7 @@
             lblBrand.Size = new Size(48, 20);
             lblBrand.TabIndex = 7;
             lblBrand.Text = "Brand";
+            lblBrand.Click += lblBrand_Click;
             // 
             // lblModel
             // 
@@ -209,7 +213,7 @@
             pcbStockImg.TabIndex = 16;
             pcbStockImg.TabStop = false;
             // 
-            // frmAdd
+            // frmAddEdit
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -233,7 +237,7 @@
             Controls.Add(btnOk);
             Controls.Add(btnCancel);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "frmAdd";
+            Name = "frmAddEdit";
             Text = "Add Phone";
             ((System.ComponentModel.ISupportInitialize)nudStock).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcbBrandImg).EndInit();
