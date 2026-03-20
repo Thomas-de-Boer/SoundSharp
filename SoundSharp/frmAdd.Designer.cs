@@ -62,6 +62,7 @@
             btnCancel.TabIndex = 0;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // btnOk
             // 
@@ -71,6 +72,7 @@
             btnOk.TabIndex = 1;
             btnOk.Text = "Ok";
             btnOk.UseVisualStyleBackColor = true;
+            btnOk.Click += btnOk_Click;
             // 
             // tbxBrand
             // 
@@ -134,12 +136,11 @@
             // lblSize
             // 
             lblSize.AutoSize = true;
-            lblSize.Location = new Point(18, 91);
+            lblSize.Location = new Point(9, 91);
             lblSize.Name = "lblSize";
-            lblSize.Size = new Size(36, 20);
+            lblSize.Size = new Size(61, 20);
             lblSize.TabIndex = 9;
-            lblSize.Text = "Size";
-            lblSize.Click += label3_Click;
+            lblSize.Text = "Storage";
             // 
             // lblPrice
             // 

@@ -58,6 +58,7 @@
             btnEdit.TabIndex = 1;
             btnEdit.Text = "Change";
             btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.Click += btnEdit_Click_1;
             // 
             // btnDelete
             // 
@@ -76,7 +77,6 @@
             lstStock.Name = "lstStock";
             lstStock.Size = new Size(446, 304);
             lstStock.TabIndex = 3;
-            lstStock.SelectedIndexChanged += lstStock_SelectedIndexChanged;
             // 
             // ckbName
             // 
