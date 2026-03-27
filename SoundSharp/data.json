@@ -31,6 +31,70 @@
       "Storage": 128000,
       "Price": 39900,
       "Stock": 30
+    },
+    {
+      "Id": 5,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
+    },
+    {
+      "Id": 6,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
+    },
+    {
+      "Id": 7,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
+    },
+    {
+      "Id": 8,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
+    },
+    {
+      "Id": 9,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
+    },
+    {
+      "Id": 10,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
+    },
+    {
+      "Id": 11,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
+    },
+    {
+      "Id": 12,
+      "Brand": "123",
+      "Model": "123",
+      "Storage": 123,
+      "Price": 123,
+      "Stock": 1230
     }
   ],
   "users": []

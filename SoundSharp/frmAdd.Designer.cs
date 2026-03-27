@@ -81,6 +81,7 @@
             tbxBrand.Name = "tbxBrand";
             tbxBrand.Size = new Size(199, 27);
             tbxBrand.TabIndex = 2;
+            tbxBrand.TextChanged += tbxBrand_TextChanged;
             // 
             // tbxModel
             // 
@@ -236,6 +237,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmAdd";
             Text = "Add Phone";
+            Load += frmAdd_Load;
             ((System.ComponentModel.ISupportInitialize)nudStock).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcbBrandImg).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcbModelImg).EndInit();
