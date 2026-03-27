@@ -73,9 +73,11 @@
             // 
             // tbxPassword
             // 
+            tbxPassword.AcceptsReturn = true;
             tbxPassword.BackColor = Color.Cyan;
             tbxPassword.Location = new Point(342, 212);
             tbxPassword.Name = "tbxPassword";
+            tbxPassword.PasswordChar = '●';
             tbxPassword.Size = new Size(125, 27);
             tbxPassword.TabIndex = 3;
             // 
@@ -88,15 +90,15 @@
             btnSubmit.TabIndex = 4;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = false;
+            btnSubmit.Click += btnSubmit_Click;
             // 
             // lblError
             // 
-            lblError.AutoSize = true;
-            lblError.Location = new Point(382, 288);
+            lblError.Location = new Point(342, 277);
             lblError.Name = "lblError";
-            lblError.Size = new Size(41, 20);
+            lblError.Size = new Size(125, 96);
             lblError.TabIndex = 5;
-            lblError.Text = "Error";
+            lblError.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
             // 
@@ -132,9 +134,9 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(342, 323);
+            pictureBox4.Location = new Point(342, 376);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(125, 115);
+            pictureBox4.Size = new Size(125, 62);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 9;
             pictureBox4.TabStop = false;

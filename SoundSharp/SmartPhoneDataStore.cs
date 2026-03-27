@@ -15,12 +15,12 @@ namespace SoundSharp
         public int FailedLoginAttempts { get; set; }
         public bool IsLocked { get; set; }
 
-        public UserAccount(string username, string password, int failedloginattempts, bool islocked)
+        public UserAccount(string username, string password, int failedloginattempts, bool isLocked)
         {
             Username = username;
             Password = password;
             FailedLoginAttempts = failedloginattempts;
-            IsLocked = islocked;
+            IsLocked = isLocked;
         }
     }
 

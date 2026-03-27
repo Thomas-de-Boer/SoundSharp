@@ -6,96 +6,65 @@
       "Model": "S25",
       "Storage": 512000,
       "Price": 1079.00,
-      "Stock": 25
+      "Stock": 19
     },
     {
       "Id": 2,
+      "Brand": "Samsung",
+      "Model": "Galaxy S26\u002B",
+      "Storage": 512000,
+      "Price": 1759.00,
+      "Stock": 13
+    },
+    {
+      "Id": 3,
       "Brand": "Apple",
       "Model": "iPhone 15 Pro",
       "Storage": 512000,
       "Price": 519.00,
-      "Stock": 10
+      "Stock": 17
     },
     {
-      "Id": 3,
+      "Id": 4,
       "Brand": "OnePlus",
       "Model": "15R",
       "Storage": 256000,
       "Price": 599.00,
-      "Stock": 20
-    },
-    {
-      "Id": 4,
-      "Brand": "Google",
-      "Model": "Pixel 9a",
-      "Storage": 128000,
-      "Price": 39900,
-      "Stock": 30
+      "Stock": 26
     },
     {
       "Id": 5,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
-    },
-    {
-      "Id": 6,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
-    },
-    {
-      "Id": 7,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
-    },
-    {
-      "Id": 8,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
-    },
-    {
-      "Id": 9,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
-    },
-    {
-      "Id": 10,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
-    },
-    {
-      "Id": 11,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
-    },
-    {
-      "Id": 12,
-      "Brand": "123",
-      "Model": "123",
-      "Storage": 123,
-      "Price": 123,
-      "Stock": 1230
+      "Brand": "Google",
+      "Model": "Pixel 9a",
+      "Storage": 128000,
+      "Price": 399.00,
+      "Stock": 6
     }
   ],
-  "users": []
+  "users": [
+    {
+      "Username": "Squog",
+      "Password": "Frocat",
+      "FailedLoginAttempts": 0,
+      "IsLocked": false
+    },
+    {
+      "Username": "Thomas",
+      "Password": "1234",
+      "FailedLoginAttempts": 0,
+      "IsLocked": false
+    },
+    {
+      "Username": "Quinten",
+      "Password": "groen",
+      "FailedLoginAttempts": 3,
+      "IsLocked": true
+    },
+    {
+      "Username": "Wouter",
+      "Password": "Wouter",
+      "FailedLoginAttempts": 0,
+      "IsLocked": false
+    }
+  ]
 }

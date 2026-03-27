@@ -21,6 +21,8 @@ namespace SoundSharp
         public decimal Price { get; set; }
         public int Stock { get; set; }
 
+
+
         public frmAdd(SmartPhone current_phone)
         {
             CurrentPhone = current_phone;
@@ -68,11 +70,6 @@ namespace SoundSharp
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void tbxBrand_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

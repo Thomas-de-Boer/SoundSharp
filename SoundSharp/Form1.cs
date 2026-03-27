@@ -5,8 +5,12 @@ namespace SoundSharp
 {
     public partial class frmMain : Form
     {
-        public SmartPhoneJsonStore jsonStore = new SmartPhoneJsonStore();
-
+        public SmartPhoneJsonStore jsonStore { get; set; }
+        public frmMain(SmartPhoneJsonStore json_store)
+        {
+            jsonStore = json_store;
+            InitializeComponent();
+        }
         public void RefreshStockList()
         {
             lstStock.Items.Clear();
@@ -20,16 +24,10 @@ namespace SoundSharp
         public frmMain()
         {
             InitializeComponent();
-            AllocConsole();
         }
-        [DllImport("kernel32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        static extern bool AllocConsole();
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            jsonStore.Load();
-
             RefreshStockList();
         }
 
